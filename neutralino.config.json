@@ -1,5 +1,5 @@
 {
-  "applicationId": "launcher",
+  "applicationId": "typescript-svelte-vite-template",
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 8080,
@@ -18,33 +18,24 @@
     "debug.log"
   ],
   "globalVariables": {
-    "TEST1": "Hello",
-    "TEST2": [
-      2,
-      4,
-      5
-    ],
-    "TEST3": {
-      "value1": 10,
-      "value2": {}
-    }
+    "ExampleGlobal": "defined in neutralino.config.json"
   },
   "modes": {
     "window": {
-      "title": "launcher",
+      "title": "Neutralino Template! (Change me in neutralino.config.json)!",
       "width": 800,
       "height": 500,
       "minWidth": 400,
       "minHeight": 200,
+      "icon": "/public/assets/logo.png",
+      "enableInspector": true,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/public/logo.png",
-      "enableInspector": true,
       "borderless": false,
       "maximize": false,
       "hidden": false,
-      "resizable": true,
-      "exitProcessOnClose": false
+      "exitProcessOnClose": false,
+      "resizable": true
     },
     "browser": {
       "globalVariables": {
@@ -65,15 +56,15 @@
     }
   },
   "cli": {
-    "binaryName": "launcher",
+    "binaryName": "CHANGEME",
+    "clientLibrary": "/public/neutralino.js",
     "resourcesPath": "/build/",
     "extensionsPath": "/extensions/",
-    "clientLibrary": "/public/neutralino.js",
     "binaryVersion": "4.7.0",
     "clientVersion": "3.6.0",
     "frontendLibrary": {
       "patchFile": "/index.html",
       "devUrl": "http://localhost:3000"
-  }
+    }
   }
 }

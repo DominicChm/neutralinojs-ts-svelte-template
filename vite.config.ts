@@ -9,6 +9,10 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+
+    // Proxy the Neutralino.js client file to neutralino because it (undocumentedly) 
+    // appends certain global variables to it. Loading it through vite causes
+    // a connection error.
     proxy: {
       "/neutralino.js": "http://127.0.0.1:8080"
     }
