@@ -18,4 +18,4 @@ npm run build
 ```
 Executables should now be in the `dist` directory.
 ## Editing
-Generally, static files go in `/public` and source files (svelte or ts) go in `/src`. Other than that, it's up to you!
+Generally, static files go in `/public` and source files (svelte or ts) go in `/src`. Other than that, it's up to you! NOTE: At the time of creation, I couldn't find an updated source of typing for the neutralino client lib. 
