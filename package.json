@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently --kill-others \"npx vite\" \"neu run --frontend-lib-dev\""
+    "dev": "concurrently --kill-others \"npx vite\" \"neu run --frontend-lib-dev\"",
+    "clean": "git clean -xdf",
+    "postinstall": "npx neu update"
   },
   "author": "",
   "license": "MIT",

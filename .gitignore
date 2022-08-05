@@ -15,3 +15,6 @@ node_modules
 bin
 build
 dist
+
+# More headaches than it's worth imo
+package-lock.json
