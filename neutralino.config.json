@@ -1,5 +1,5 @@
 {
-  "applicationId": "typescript-svelte-vite-template",
+  "applicationId": "CHANGEME.example.app.name",
   "version": "1.0.0",
   "defaultMode": "window",
   "port": 8080,
@@ -22,12 +22,12 @@
   },
   "modes": {
     "window": {
-      "title": "Neutralino Template! (Change me in neutralino.config.json)!",
+      "title": "Neutralino Template! (CHANGEME in neutralino.config.json)!",
       "width": 800,
       "height": 500,
       "minWidth": 400,
       "minHeight": 200,
-      "icon": "/public/assets/logo.png",
+      "icon": "/public/assets/CHANGEME.png",
       "enableInspector": true,
       "fullScreen": false,
       "alwaysOnTop": false,

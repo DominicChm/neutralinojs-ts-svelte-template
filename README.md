@@ -1,17 +1,21 @@
-# neutralinojs-minimal
+# neutralinojs-ts-svelte
+A bare-bones template to use [Neutralino.js](https://github.com/neutralinojs/neutralinojs) with [Svelte](https://svelte.dev/), [Typescript](https://www.typescriptlang.org/), and [Vite](https://vitejs.dev/).
 
-The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/how-to/use-a-frontend-library).
+## Quick Start
+To get started, run 
+```
+git clone git@github.com:DominicChm/neutralinojs-ts-svelte
+cd neutralinojs-ts-svelte
+npm install
+npm run dev
+```
+Make sure to edit `neutralino.config.json` to suit your project! (*Especially* the `CHANGEME` fields!)
 
-## Contributors
-
-<a href="https://github.com/neutralinojs/neutralinojs-minimal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=neutralinojs/neutralinojs-minimal" />
-</a>
-
-## License
-
-[MIT](LICENSE)
-
-## Icon credits
-
-- `trayIcon.png` - Made by [Freepik](https://www.freepik.com) and downloaded from [Flaticon](https://www.flaticon.com)
+## Packaging
+To package your app, simply run
+```
+npm run build
+```
+Executables should now be in the `dist` directory.
+## Editing
+Generally, static files go in `/public` and source files (svelte or ts) go in `/src`. Other than that, it's up to you!
