@@ -2,7 +2,7 @@
 </script>
 
 <main>
-    <img src="assets/CHANGEME.png">
+    <img src="assets/CHANGEME.png" alt="logo">
     <h2>Get started with Neutralino + Typescript + Vite + Svelte!</h2>
     <h4>Edit and save <code>src/App.svelte</code> to see this page update!</h4>
 </main>
